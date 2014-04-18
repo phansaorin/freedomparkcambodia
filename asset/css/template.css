@@ -1,0 +1,107 @@
+#controll {
+	height: auto;
+	width: 100%;
+}
+
+.row .icon-style {
+	text-align: center;
+}
+.row h1{
+    font-weight: bold;
+}
+.img-circle {
+	border-radius: 43%;
+}
+
+#ques{
+    border:1px solid #ccc;
+    box-shadow: 5px 5px 5px #666666;
+    border-radius: 5px;
+    margin: 30px 0 30px 0;
+    width: 55%;
+    height: 300px;
+    padding: 20px 25px;
+    
+}
+
+.row span{
+    font-family:  verdana, sans-serif;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+    color:#000;
+    font-size:34px;
+    
+}
+#question_block{
+    font-size: 40px;
+}
+#footer-ques{
+	width:100%;
+	height:50px;
+	background-color:#444;
+	margin-top: 300px;
+	}
+#footer_ui{
+	width:100%;
+	height:50px;
+	background-color:#444;
+	margin-top:148px;
+	}
+#hinghorng_logo{
+	height:auto;
+	background-repeat:no-repeat;
+	float:right;
+	}
+#fb-root{
+	float:right;
+	height:auto;
+	margin-top:23px;
+	
+}
+
+/*********************** Override Style *********************/
+.btn-info{
+    width: 20%;
+    height: 50px;
+}
+
+.myButton {
+-moz-box-shadow: 3px 4px 0px 0px #1564ad;
+-webkit-box-shadow: 3px 4px 0px 0px #1564ad;
+box-shadow: 3px 4px 0px 0px #1564ad;
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5));
+background:-moz-linear-gradient(top, #79bbff 5%, #378de5 100%);
+background:-webkit-linear-gradient(top, #79bbff 5%, #378de5 100%);
+background:-o-linear-gradient(top, #79bbff 5%, #378de5 100%);
+background:-ms-linear-gradient(top, #79bbff 5%, #378de5 100%);
+background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5',GradientType=0);
+background-color:#79bbff;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+border:1px solid #337bc4;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family:arial;
+font-size:17px;
+font-weight:bold;
+padding:12px 44px;
+text-decoration:none;
+text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff));
+background:-moz-linear-gradient(top, #378de5 5%, #79bbff 100%);
+background:-webkit-linear-gradient(top, #378de5 5%, #79bbff 100%);
+background:-o-linear-gradient(top, #378de5 5%, #79bbff 100%);
+background:-ms-linear-gradient(top, #378de5 5%, #79bbff 100%);
+background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff',GradientType=0);
+background-color:#378de5;
+}
+.myButton:active {
+position:relative;
+top:1px;
+}
